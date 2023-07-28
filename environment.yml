@@ -1,0 +1,21 @@
+name: DiTau_L1
+dependencies:
+  - python=3.8
+  - keras
+  - scikit-learn
+  - matplotlib
+  - numpy
+  - pip
+  - ipykernel
+  - pip:
+    - h5py==2.10.0
+    - scipy==1.5.4
+    - mplhep
+    - jupyter
+    - uproot4==4.0.0
+    - awkward==1.2.0
+    - hist[plot]
+    - monotonenorm
+    - tensorflow==2.11.0
+    - tensorflow-probability
+    - coffea==0.7.1
